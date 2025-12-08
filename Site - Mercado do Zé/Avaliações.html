@@ -24,10 +24,31 @@
             </nav>
 
             <div class="botoes">
-                <img src="img/Land Page/Compras.png" alt="Carrinho">
+                <img id="abrir-carrinho" src="img/Land Page/Compras.png" alt="Carrinho">
                 <img id="menu-btn" src="img/Land Page/Menu.png" alt="Menu">
             </div>
         </header>
+
+        <!-- OVERLAY DO CARRINHO -->
+        <div id="carrinho-overlay" class="carrinho-overlay"></div>
+
+        <!-- CARRINHO LATERAL -->
+        <aside id="carrinho" class="carrinho">
+
+            <h2 class="carrinho-titulo">Carrinho</h2>
+
+            <div id="carrinho-itens" class="carrinho-itens">
+                <!-- Os itens serão adicionados via JavaScript -->
+            </div>
+
+            <div class="carrinho-total">
+                <span>Total:</span>
+                <strong id="carrinho-total-valor">R$ 0,00</strong>
+            </div>
+
+            <button id="finalizar-compra" class="btn-finalizar">Finalizar Compra</button>
+
+        </aside>
 
         <!-- BOTÃO ESCONDIDO -->
         <div id="menu-overlay" class="menu-overlay"></div>
@@ -39,9 +60,7 @@
 
         <main>
             <section class="avaliacoes-container">
-
                 <h2 class="titulo-avaliacoes">
-                    
                     Avaliações dos Clientes
                 </h2>
 
@@ -50,8 +69,7 @@
                     <p class="avaliacao-nome">Taylor Swift – Bairro Brasília</p>
                     <p class="avaliacao-estrelas">★★★★★</p>
                     <p class="avaliacao-texto">
-                        “Além da variedade de produtos, o serviço de entrega facilita muito o dia
-                        a dia. <br> Sempre chega tudo certinho e rápido.”
+                        “Além da variedade de produtos, o serviço de entrega facilita muito o dia a dia. <br> Sempre chega tudo certinho e rápido.”
                     </p>
                 </div>
                 <div class="avaliacao-card">
@@ -74,20 +92,23 @@
                     <img src="img/Avaliadores/Casemiro.png" alt="estrela" class="icon-estrela">
                     <p class="avaliacao-nome">Casimiro Miguel – Bairro Renascer</p>
                     <p class="avaliacao-estrelas">★★★★</p>
-                    <p class="avaliacao-texto">“Ambiente organizado, funcionários atenciosos. <br> Só poderia ter mais opções de produtos integrais, mas no geral é ótimo.”</p>
+                    <p class="avaliacao-texto">
+                        “Ambiente organizado, funcionários atenciosos. <br> Só poderia ter mais opções de produtos integrais, mas no geral é ótimo.”
+                    </p>
                 </div>
                 <div class="avaliacao-card">
                     <img src="img/Avaliadores/Gonzaghinha.png" alt="estrela" class="icon-estrela">
                     <p class="avaliacao-nome">Gonzaghinha – Bairro Ipanema</p>
                     <p class="avaliacao-estrelas">★★★★★</p>
-                    <p class="avaliacao-texto">“Mercado que já virou tradição no bairro. Sempre tem promoções boas e o atendimento é nota 10.”</p>
+                    <p class="avaliacao-texto">
+                        “Mercado que já virou tradição no bairro. Sempre tem promoções boas e o atendimento é nota 10.”
+                    </p>
                 </div>
             </section>
 
             <a href="#topo" class="voltar-topo">
                     Voltar ao início <span><img src="img/Land Page/Seta inicio.png" alt=""></span>
             </a>
-
             <section class="banner-meio">
                 <img src="img/Land Page/Rodape.png" alt="">
             </section>
