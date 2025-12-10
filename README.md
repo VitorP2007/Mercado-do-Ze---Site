@@ -5,7 +5,7 @@ Este projeto consiste no desenvolvimento de uma **interface completa e responsiv
 
 O objetivo foi construir uma experiência de navegação clara, acessível e organizada, aplicando princípios de **usabilidade**, **design centrado no usuário** e **prototipação**.
 
-O projeto foi desenvolvido em dupla por **Vitor Pizolato da Silva** e **Fusta Couto**.
+O projeto foi desenvolvido em dupla por **Vitor Pizolato da Silva** e **Fausta Couto**.
 
 ---
 
