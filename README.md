@@ -1,42 +1,102 @@
 06/12/2025
-# 🛒 Mercado do Zé – Interface Responsiva 
 
-Este projeto consiste no desenvolvimento de uma **interface completa e responsiva** para o site **Mercado do Zé**, criado como atividade prática da disciplina **Interface Humano-Máquina (IHM)** no curso de **Análise e Desenvolvimento de Sistemas (ADS)**.
+🛒 Mercado do Zé – Interface Responsiva (Front-end)
 
-O objetivo foi construir uma experiência de navegação clara, acessível e organizada, aplicando princípios de **usabilidade**, **design centrado no usuário** e **prototipação**.
+Este projeto consiste no desenvolvimento de uma interface web responsiva para o site Mercado do Zé, elaborado como atividade acadêmica da disciplina Interface Humano-Máquina (IHM), do curso de Análise e Desenvolvimento de Sistemas (ADS).
 
-O projeto foi desenvolvido em dupla por **Vitor Pizolato da Silva** e **Fausta Couto**.
+O foco principal do projeto está no Front-end, com ênfase em responsividade, usabilidade e experiência do usuário, aplicando conceitos estudados em sala de aula e prototipação prévia.
 
----
+O desenvolvimento foi realizado em dupla por Vitor Pizolato da Silva e Fausta Porto Couto.
 
-## ⭐ Principais Páginas do Projeto
+🎯 Objetivo do Projeto
 
-- **Home (Landing Page)** — Apresentação geral do mercado, banner principal e navegação inicial.  
-- **Produtos** — Lista de categorias e produtos com destaque visual e interação.  
-- **Por que Comprar?** — Seção explicativa com diferenciais do mercado.  
-- **Sobre Nós** — Informações institucionais, história e identidade visual.  
-- **Dúvidas Frequentes (FAQ)** — Perguntas e respostas com interação expansível.  
-- **Avaliações** — Depoimentos de clientes com layout estilizado.  
-- **Contato / Rodapé** — Informações de telefone, localização, redes sociais e mapa incorporado. 
+Construir uma interface moderna, organizada e acessível, capaz de se adaptar a diferentes tamanhos de tela (desktop, tablet e mobile), simulando um site de mercado local com e-commerce informativo.
 
----
+Os principais objetivos foram:
 
-## 🛠 Tecnologias Utilizadas
+Aplicar princípios de Interface Humano-Máquina
 
-- **HTML5**  
-- **CSS3** (responsividade, animações, sombras)  
-- **JavaScript** (FAQ interativo, botões dinâmicos)  
-- **Figma** (prototipação e UI)
+Desenvolver um layout responsivo
 
----
+Garantir navegação intuitiva
 
-## 🎓 Objetivo Acadêmico
+Trabalhar hierarquia visual e organização do conteúdo
 
-Demonstrar a aplicação prática de conceitos fundamentais de **IHM**, como:
+Integrar interações básicas com JavaScript
 
-- Estruturação da informação  
-- Design centrado no usuário  
-- Navegação clara e intuitiva  
-- Consistência visual  
-- Acessibilidade e feedback  
-- Hierarquia e legibilidade  
+📄 Principais Páginas
+
+Home (Landing Page)
+Apresentação geral do mercado, banners, acesso rápido às categorias e destaques.
+
+Produtos
+Listagem de categorias e produtos, com layout adaptável e navegação facilitada.
+
+Sobre Nós
+Informações institucionais sobre o mercado, história e valores.
+
+Por que Comprar?
+Seção explicativa com os diferenciais do Mercado do Zé.
+
+Dúvidas Frequentes (FAQ)
+Perguntas e respostas com interação expansível via JavaScript.
+
+Avaliações
+Depoimentos de clientes organizados visualmente.
+
+Contato / Rodapé
+Informações de telefone, redes sociais, endereço e mapa incorporado.
+
+🛠 Tecnologias Utilizadas
+
+HTML5 — Estruturação semântica das páginas
+
+CSS3 — Estilização, layout flexível e responsividade
+
+JavaScript (puro) — Interações como FAQ, menu mobile e carrosséis
+
+Figma — Prototipação e planejamento da interface (UI/UX)
+
+📱 Responsividade
+
+O site foi desenvolvido com foco em adaptação para diferentes resoluções, incluindo:
+
+Desktop
+
+Tablets
+
+Smartphones
+
+Foram utilizados recursos como:
+
+Flexbox
+
+Media Queries
+
+Menus adaptáveis para mobile
+
+Navegação otimizada para toque
+
+🎓 Contexto Acadêmico
+
+Este projeto tem caráter acadêmico, sendo utilizado como atividade prática para demonstrar a aplicação dos seguintes conceitos de IHM:
+
+Design centrado no usuário
+
+Usabilidade e acessibilidade
+
+Organização da informação
+
+Consistência visual
+
+Feedback e interação
+
+Navegação clara e intuitiva
+
+📌 Observações
+
+O projeto não possui back-end nem integração com banco de dados.
+
+As funcionalidades simulam um ambiente real de navegação e compra.
+
+O foco está na interface e experiência do usuário, não em processamento de pedidos.
